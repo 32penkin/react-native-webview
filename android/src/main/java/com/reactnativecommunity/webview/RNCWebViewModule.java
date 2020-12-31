@@ -103,7 +103,7 @@ public class RNCWebViewModule extends ReactContextBaseJavaModule implements Acti
           // If request is cancelled, the result arrays are empty.
           if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             if (downloadRequest != null) {
-              downloadFile();
+//              downloadFile();
             }
           } else {
             Toast.makeText(getCurrentActivity().getApplicationContext(), "Cannot download files as permission was denied. Please provide permission to write to storage, in order to download files.", Toast.LENGTH_LONG).show();

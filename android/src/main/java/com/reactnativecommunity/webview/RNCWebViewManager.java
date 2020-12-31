@@ -241,7 +241,7 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
         module.setDownloadRequest(request);
 
         if (module.grantFileDownloaderPermissions()) {
-          module.downloadFile();
+//          module.downloadFile();
         }
       }
     });
